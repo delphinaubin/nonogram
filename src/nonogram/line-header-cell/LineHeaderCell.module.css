@@ -1,0 +1,21 @@
+.headerCell {
+    border-left: solid 1px #888;
+    background-color: #EEE;
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.headerCell:last-of-type {
+    border-right: solid 1px transparent;
+}
+.headerCell:first-of-type {
+    border-left: solid 1px transparent;
+}
+
+.headerNumber {
+    font-size: 1.2rem;
+}

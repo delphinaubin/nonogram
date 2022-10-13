@@ -1,0 +1,10 @@
+.cellRow {
+  display: flex;
+  border-top: solid 1px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.cellRow:last-of-type {
+  border-bottom: solid 1px;
+}

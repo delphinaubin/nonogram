@@ -1,0 +1,14 @@
+.emptyCell {
+    border-left: solid 1px transparent;
+    background-color: transparent;
+    height: 4rem;
+    width: 4rem;
+    display: flex;
+}
+
+.headerCell:last-of-type {
+    border-right: solid 1px transparent;
+}
+.headerCell:first-of-type {
+    border-left: solid 1px transparent;
+}
